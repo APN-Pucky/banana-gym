@@ -59,3 +59,5 @@ The mean reward is roughly the same as the analytic for N=2:
 ```
 [1.5 1.1]  =>  -0.25655004382636204
 ```
+
+This means highest reward on average is achieved by selling for 1.5 on the first day and 1.1 on the second.
