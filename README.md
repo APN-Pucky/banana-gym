@@ -49,3 +49,13 @@ Prices on the n-th day are x_n.
 
 Optimization in all x_i (eg. via a grid) allows to compare (at low N) the learned result with the analytic result (except for statistical fluctuations). 
 See ![analytic.py](./analytic.py).
+
+## Comparison
+
+![learn](./img/learn.png)
+
+The mean reward is roughly the same as the analytic for N=2:
+
+```
+[1.5 1.1]  =>  -0.25655004382636204
+```
