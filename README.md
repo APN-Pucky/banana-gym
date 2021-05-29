@@ -43,4 +43,4 @@ Prices on the n-th day are x_n.
 
 ![plot](./img/eq.png)
 
-Optimization in all x_i (eg. via a grid) allows to easily compare the learned result with the analytic result (except for statistical fluctuations).
+Optimization in all x_i (eg. via a grid) allows to compare (at low N) the learned result with the analytic result (except for statistical fluctuations).
