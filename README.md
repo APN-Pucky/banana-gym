@@ -36,6 +36,10 @@ $$p(x) = (1+e)/(1. + e^(x+1))$$
 where x-1 is my profit. This x-1 is my reward. If I don't sell the
 banana, the agent gets a reward of -1 (the price of the banana).
 
+## Example agent
+
+See ![example.py](./example.py).
+
 ## Analytic solution
 
 This recursive equation corresponds to the probability tree diagram. 
@@ -43,4 +47,5 @@ Prices on the n-th day are x_n.
 
 ![plot](./img/eq.png)
 
-Optimization in all x_i (eg. via a grid) allows to compare (at low N) the learned result with the analytic result (except for statistical fluctuations).
+Optimization in all x_i (eg. via a grid) allows to compare (at low N) the learned result with the analytic result (except for statistical fluctuations). 
+See ![analytic.py](./analytic.py).
